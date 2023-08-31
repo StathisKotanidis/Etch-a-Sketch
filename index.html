@@ -6,22 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch a Sketch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Tektur:wght@500&family=Yellowtail&display=swap"
+    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
 
 <body>
 
+    <header>
+        <h1 id="title">Etch a Sketch</h1>
+    </header>
 
+    <main>
 
-    <div class="grid-container">
+        <div class="elements-container">
+            <form action="">
+                <input type="color" id="color-picker">
+            </form>
+            <button class='left-side-buttons' id="random-button">Random </button>
+            <button class="left-side-buttons" id="clear-button">Clear <i class="fa-solid fa-broom"></i></button>
+        </div>
 
-    </div>
+        <div class="grid-container">
 
+            <div class="grid"></div>
+            <div class="button-container">
+                <button class="grid-button" id="button1">4x4</button>
+                <button class="grid-button" id="button2">8x8</button>
+                <button class="grid-button" id="button3">16x16</button>
+                <button class="grid-button" id="button4">32x32</button>
+                <button class="grid-button" id="button5">64x64</button>
+            </div>
 
+        </div>
 
+    </main>
 
-
-
-
+    <footer>
+        <p>Made by Stathis Kotanidis <i class="fa-brands fa-github"></i></p>
+    </footer>
 
     <script src="main.js"></script>
 </body>

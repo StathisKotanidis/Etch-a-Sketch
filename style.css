@@ -1,21 +1,117 @@
 body {
 
     height: 100vh;
+    background-color: #0096c7;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.grid {
+
+    display: grid;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+}
+
+header {
+
+    font-family: 'Tektur', cursive;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+    text-align: center;
+    height: 20%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    background: red;
+}
 
+main {
+
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements-container {
+
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+
+}
+
+input[type="color"] {
+
+    border: 1px solid #ced4da;
+    ;
+    background-color: #ced4da;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.left-side-buttons {
+
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #ced4da;
+    border: 1px solid #ced4da;
+    color: black;
+    border-radius: 5px;
+    width: 6em;
+}
+
+#color-picker {
+
+    width: 100%;
 }
 
 .grid-container {
 
-    /* display: flex;
-    flex-wrap: wrap; */
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    height: 70%;
+    display: flex;
+    flex-direction: column;
 
-    background-color: black;
-    width: 200px;
-    height: 200px;
+}
+
+#grid-range {
+
+    width: 80%;
+
+}
+
+.button-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+}
+
+.grid-button {
+
+
+    border-radius: 5px;
+    background-color: #ced4da;
+    font-family: 'Rubik Iso', cursive;
+    width: 5.2em;
+    border: 1px solid #ced4da;
+}
+
+footer {
+
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Tektur', cursive;
+    font-family: 'Yellowtail', cursive;
+    font-size: 1.2em;
+    background-color: #ced4da;
+
 }
